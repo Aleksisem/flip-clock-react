@@ -1,0 +1,64 @@
+:root {
+  --card-gap: 1px;
+}
+
+.clockPanel {
+  display: inline-block; 
+  border: 1px solid white;
+  line-height: 1;
+}
+
+.card {
+  border: 1px solid violet;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 1px;
+}
+
+.cardFlip {
+  position: relative;
+}
+
+.cardStatic {
+  
+}
+
+.flipCardLeafFront {
+
+}
+
+.flipCardLeafBack {
+
+}
+
+.cardLeaf {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  overflow: hidden;
+}
+
+.cardContent {
+  white-space: nowrap;
+  text-box-trim: trim-both;
+  text-box-edge: cap alphabetic;
+}
+
+.cardContentTop {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translate(-50%, 50%);
+}
+
+.cardContentBottom {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translate(-50%, calc(-50% - var(--card-gap)));  
+}
+
+
