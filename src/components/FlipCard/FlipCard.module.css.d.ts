@@ -8,7 +8,10 @@
 
 declare const clockPanel: string;
 declare const card: string;
+declare const perspective: string;
 declare const cardFlip: string;
+declare const cardFlipWrap: string;
+declare const cardFlipContent: string;
 declare const cardStatic: string;
 declare const flipCardLeafFront: string;
 declare const flipCardLeafBack: string;
@@ -20,7 +23,10 @@ declare const cardContentBottom: string;
 export {
 	clockPanel,
 	card,
+	perspective,
 	cardFlip,
+	cardFlipWrap,
+	cardFlipContent,
 	cardStatic,
 	flipCardLeafFront,
 	flipCardLeafBack,
@@ -33,7 +39,10 @@ export {
 declare const __default_export__: {
 	clockPanel: typeof clockPanel;
 	card: typeof card;
+	perspective: typeof perspective;
 	cardFlip: typeof cardFlip;
+	cardFlipWrap: typeof cardFlipWrap;
+	cardFlipContent: typeof cardFlipContent;
 	cardStatic: typeof cardStatic;
 	flipCardLeafFront: typeof flipCardLeafFront;
 	flipCardLeafBack: typeof flipCardLeafBack;
@@ -43,4 +52,4 @@ declare const __default_export__: {
 	cardContentBottom: typeof cardContentBottom;
 };
 export default __default_export__;
-//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiRmxpcENhcmQubW9kdWxlLmNzcy5kLnRzIiwic291cmNlcyI6WyJGbGlwQ2FyZC5tb2R1bGUuY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiI7Ozs7Ozs7O2NBSUE7Y0FNQTtjQVVBO2NBSUE7Y0FJQTtjQUlBO2NBSUE7Y0FPQTtjQU1BO2NBT0E7OztDQXBEQTtDQU1BO0NBVUE7Q0FJQTtDQUlBO0NBSUE7Q0FJQTtDQU9BO0NBTUE7Q0FPQTs7OztDQXBEQTtDQU1BO0NBVUE7Q0FJQTtDQUlBO0NBSUE7Q0FJQTtDQU9BO0NBTUE7Q0FPQTs7In0=
+//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiRmxpcENhcmQubW9kdWxlLmNzcy5kLnRzIiwic291cmNlcyI6WyJGbGlwQ2FyZC5tb2R1bGUuY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiI7Ozs7Ozs7O2NBSUE7Y0FRQTtjQVVBO2NBSUE7Y0FVQTtjQU1BO2NBU0E7Y0FJQTtjQUlBO2NBTUE7Y0FPQTtjQU1BO2NBT0E7OztDQWpGQTtDQVFBO0NBVUE7Q0FJQTtDQVVBO0NBTUE7Q0FTQTtDQUlBO0NBSUE7Q0FNQTtDQU9BO0NBTUE7Q0FPQTs7OztDQWpGQTtDQVFBO0NBVUE7Q0FJQTtDQVVBO0NBTUE7Q0FTQTtDQUlBO0NBSUE7Q0FNQTtDQU9BO0NBTUE7Q0FPQTs7In0=

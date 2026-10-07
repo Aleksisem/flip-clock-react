@@ -6,6 +6,8 @@
   display: inline-block; 
   border: 1px solid white;
   line-height: 1;
+  position: relative;
+  transform-style: preserve-3d;
 }
 
 .card {
@@ -15,11 +17,36 @@
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  gap: 1px;
+  gap: var(--card-gap);
+}
+
+.perspective {
+  perspective: 1600px;
 }
 
 .cardFlip {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  transform: rotateX(0deg);
+  transform-style: preserve-3d;
+}
+
+.cardFlipWrap {
   position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.cardFlipContent {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
 }
 
 .cardStatic {
@@ -31,7 +58,9 @@
 }
 
 .flipCardLeafBack {
-
+  position: absolute !important;
+  top: 0;
+  bottom: 0;
 }
 
 .cardLeaf {

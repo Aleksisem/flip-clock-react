@@ -10,4 +10,5 @@
   align-items: center;
   box-sizing: border-box;
   justify-content: center;
+  background-color: inherit;
 }
