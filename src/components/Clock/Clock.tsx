@@ -1,9 +1,9 @@
 import { useEffect, useRef, useState } from 'react'
-import { ClockPanel, type CardContent } from '../FlipCard/FlipCard'
+import { ClockPanel, type CardData } from '../FlipCard/FlipCard'
 import styles from './Clock.module.css'
 
 export function Clock() {
-  const [seconds, setSeconds] = useState<CardContent>('00') 
+  const [seconds, setSeconds] = useState<string>('00') 
   const clockInterval = useRef<number>(null)
   
   useEffect(() => {
@@ -15,8 +15,8 @@ export function Clock() {
 
   return(
     <div className={styles.clock}>
-      <ClockPanel width={120} height={200} content={seconds[0]} />
-      <ClockPanel width={120} height={200} content={seconds[1]} />
+      <ClockPanel width={120} height={200} value={seconds[0]} />
+      <ClockPanel width={120} height={200} value={seconds[1]} />
     </div>
   ) 
 }
